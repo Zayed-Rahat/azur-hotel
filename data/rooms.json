@@ -13,12 +13,12 @@
     "roomCleaning": true,
     "images": [
       {
-        "public_id": "bookit/rooms/1_bzynlv",
-        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/1_bzynlv.jpg"
+        "public_id": "azurHotel/rooms/1_n3czcx",
+        "url": "https://res.cloudinary.com/azurahat/image/upload/v1627418820/azurHotel/rooms/room1_n3czcx.jpg"
       },
       {
-        "public_id": "bookit/rooms/2_s1u52n",
-        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590761/bookit/rooms/2_s1u52n.jpg"
+        "public_id": "azurHotel/rooms/1_n3czcx",
+        "url": "https://res.cloudinary.com/azurahat/image/upload/v1627418820/azurHotel/rooms/room1_n3czcx.jpg"
       }
     ],
     "category": "King"
@@ -37,8 +37,8 @@
     "roomCleaning": true,
     "images": [
       {
-        "public_id": "bookit/rooms/3_quuli7.jpg",
-        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/3_quuli7.jpg"
+        "public_id": "azurHotel/rooms/2_bu3ya9.jpg",
+        "url": "https://res.cloudinary.com/azurahat/image/upload/v1627419845/azurHotel/rooms/room2_bu3ya9.jpg"
       }
     ],
     "category": "Twins"
@@ -57,8 +57,8 @@
     "roomCleaning": false,
     "images": [
       {
-        "public_id": "bookit/rooms/4_sju0ql",
-        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590765/bookit/rooms/4_sju0ql.jpg"
+        "public_id": "azurHotel/rooms/3_pzpbip",
+        "url": "https://res.cloudinary.com/azurahat/image/upload/v1627419850/azurHotel/rooms/room3_pzpbip.jpg"
       }
     ],
     "category": "King"
@@ -77,12 +77,12 @@
     "roomCleaning": true,
     "images": [
       {
-        "public_id": "bookit/rooms/5_jmydt6",
-        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/5_jmydt6.jpg"
+        "public_id": "azurHotel/rooms/4_kvyxoi",
+        "url": "https://res.cloudinary.com/azurahat/image/upload/v1627419852/azurHotel/rooms/room4_kvyxoi.jpg"
       },
       {
-        "public_id": "bookit/rooms/6_nwmr5f",
-        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590764/bookit/rooms/6_nwmr5f.jpg"
+        "public_id": "azurHotel/rooms/5_ijupza",
+        "url": "https://res.cloudinary.com/azurahat/image/upload/v1627419854/azurHotel/rooms/room5_ijupza.jpg"
       }
     ],
     "category": "Single"
@@ -101,8 +101,8 @@
     "roomCleaning": true,
     "images": [
       {
-        "public_id": "bookit/rooms/7_hshhzq",
-        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590764/bookit/rooms/7_hshhzq.jpg"
+        "public_id": "azurHotel/rooms/6_mb9aca",
+        "url": "https://res.cloudinary.com/azurahat/image/upload/v1627419846/azurHotel/rooms/room6_mb9aca.jpg"
       }
     ],
     "category": "King"
@@ -121,8 +121,8 @@
     "roomCleaning": true,
     "images": [
       {
-        "public_id": "bookit/rooms/8_crn0xy",
-        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590765/bookit/rooms/8_crn0xy.jpg"
+        "public_id": "azurHotel/rooms/7_h8tkua",
+        "url": "https://res.cloudinary.com/azurahat/image/upload/v1627419847/azurHotel/rooms/room7_h8tkua.jpg"
       }
     ],
     "category": "Twins"
@@ -141,8 +141,8 @@
     "roomCleaning": false,
     "images": [
       {
-        "public_id": "bookit/rooms/9_konrjf",
-        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590849/bookit/rooms/9_konrjf.jpg"
+        "public_id": "azurHotel/rooms/8_whjgcb",
+        "url": "https://res.cloudinary.com/azurahat/image/upload/v1627419848/azurHotel/rooms/room8_whjgcb.jpg"
       }
     ],
     "category": "Single"
@@ -161,8 +161,8 @@
     "roomCleaning": true,
     "images": [
       {
-        "public_id": "bookit/rooms/10_w8w8yi",
-        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590840/bookit/rooms/10_w8w8yi.jpg"
+        "public_id": "azurHotel/rooms/9_hgcyga",
+        "url": "https://res.cloudinary.com/azurahat/image/upload/v1627419851/azurHotel/rooms/room9_hgcyga.jpg"
       }
     ],
     "category": "Single"

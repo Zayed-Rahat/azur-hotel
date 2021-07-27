@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const rooms = require('../data/rooms')
 
-mongoose.connect(process.env.DB_URI, {
+mongoose.connect('mongodb+srv://azurahat:hotel420@hotels.o2vqk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,

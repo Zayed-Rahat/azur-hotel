@@ -5,7 +5,7 @@ const dbConnect = () => {
         return
     }
 
-    mongoose.connect("mongodb+srv://azurahat:hotel420@hotels.o2vqk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
+    mongoose.connect(process.env.DB_URI, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useFindAndModify: false,
