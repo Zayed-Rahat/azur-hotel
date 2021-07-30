@@ -15,6 +15,7 @@ handler.get(getSingleRoom)
 handler
     .use(isAuthenticatedUser, authorizeRoles('admin'))
     .put(updateRoom)
+
 handler
     .use(isAuthenticatedUser, authorizeRoles('admin'))
     .delete(deleteRoom)

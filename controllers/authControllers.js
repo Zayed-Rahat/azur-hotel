@@ -123,7 +123,7 @@ const forgotPassword = catchAsyncErrors(async (req, res, next) => {
     try {
         await sendEmail({
             email: user.email,
-            subject: 'AzurHotel Password Recovery',
+            subject: 'BookIT Password Recovery',
             message
         })
 

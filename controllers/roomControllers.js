@@ -45,7 +45,7 @@ const newRoom = catchAsyncErrors(async (req, res) => {
     for (let i = 0; i < images.length; i++) {
 
         const result = await cloudinary.v2.uploader.upload(images[i], {
-            folder: 'azurHotel/rooms',
+            folder: 'bookit/rooms',
         });
 
         imagesLinks.push({
@@ -104,7 +104,7 @@ const updateRoom = catchAsyncErrors(async (req, res) => {
         for (let i = 0; i < images.length; i++) {
 
             const result = await cloudinary.v2.uploader.upload(images[i], {
-                folder: 'azurHotel/rooms',
+                folder: 'bookit/rooms',
             });
 
             imagesLinks.push({

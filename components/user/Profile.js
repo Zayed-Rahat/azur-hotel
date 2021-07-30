@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 
 import { toast } from 'react-toastify'
 import ButtonLoader from '../layout/ButtonLoader'
@@ -134,7 +135,7 @@ const Profile = () => {
                                     <div className='d-flex align-items-center'>
                                         <div>
                                             <figure className='avatar mr-3 item-rtl'>
-                                                <img
+                                                <Image
                                                     src={avatarPreview}
                                                     className='rounded-circle'
                                                     alt='image'

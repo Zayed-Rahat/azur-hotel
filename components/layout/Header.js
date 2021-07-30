@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Link from 'next/link'
-
+import Image from 'next/image'
 import { useDispatch, useSelector } from 'react-redux'
 import { loadUser } from '../../redux/actions/userActions'
 import { signOut } from 'next-auth/client'
@@ -28,7 +28,7 @@ const Header = () => {
                 <div className="col-3 p-0">
                     <div className="navbar-brand">
                         <Link href='/'>
-                            <img style={{ cursor: 'pointer' }} src="/images/bookit_logo.png" alt="BookIT" />
+                            <Image style={{ cursor: 'pointer' }} src="/images/bookit_logo.png" alt="BookIT" layout="fill" />
                         </Link>
                     </div>
                 </div>
@@ -45,10 +45,11 @@ const Header = () => {
                                 aria-expanded="false"
                             >
                                 <figure className="avatar avatar-nav">
-                                    <img
+                                    <Image
                                         src={user.avatar && user.avatar.url}
                                         alt={user && user.name}
                                         className="rounded-circle"
+                                       
                                     />
                                 </figure>
                                 <span>{user && user.name}</span>
@@ -56,7 +57,7 @@ const Header = () => {
 
                             <div className="dropdown-menu" aria-labelledby='dropDownMenuButton'>
 
-                                {user.role === 'admin' && (
+                               {user.role === 'admin' && (
                                     <>
 
                                         <Link href='/admin/rooms'>
@@ -79,7 +80,7 @@ const Header = () => {
 
                                     </>
                                 )}
-
+ 
                                 <Link href='/bookings/me'>
                                     <a className="dropdown-item">My Bookings</a>
                                 </Link>
