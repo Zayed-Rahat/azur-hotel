@@ -5,6 +5,8 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  background-color: rgb(23, 25, 27);
+  color: #cacfe1;
 }
 
 /* Scroll Bar */
@@ -96,7 +98,7 @@ body {
   height: 16px;
 }
 .lds-dual-ring:after {
-  content: ' ';
+  content: " ";
   display: block;
   width: 24px;
   height: 24px;
@@ -201,7 +203,7 @@ body {
 
 /* Navbar */
 nav {
-  background-color: white;
+  background-color: rgb(204, 196, 196);
   padding: 1rem 1rem;
   -webkit-box-shadow: 0 4px 6px -6px #222;
   -moz-box-shadow: 0 4px 6px -6px #222;
@@ -220,16 +222,19 @@ nav {
 
 .stays-heading {
   font-weight: 700;
+  color: #e3e3e3;
 }
 
 .back-to-search {
   font-size: 1.1rem;
   color: #e61e4d;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .back-to-search:hover {
   color: #e61e4d;
+  text-decoration: none;
 }
 
 .card {
@@ -238,12 +243,13 @@ nav {
 }
 
 .card-title a {
-  color: #2e2e2e;
+  color: #1e1c1c;
   font-size: 1.2rem;
+  text-decoration: none;
 }
 
 .card-title a:hover {
-  color: #e61e4d;
+  color: #3d47b6;
   text-decoration: none;
 }
 
@@ -258,11 +264,12 @@ nav {
 }
 
 .view-btn {
-  background-color: #e61e4d;
+  background-color: #0e0b0b;
 }
 
 .view-btn a {
   color: white;
+  text-decoration: none;
 }
 
 .card-img-top {
@@ -290,7 +297,7 @@ nav {
 }
 
 .rating-outer::before {
-  content: '\f006 \f006 \f006 \f006 \f006';
+  content: "\f006 \f006 \f006 \f006 \f006";
 }
 
 .rating-inner {
@@ -303,7 +310,7 @@ nav {
 }
 
 .rating-inner::before {
-  content: '\f005 \f005 \f005 \f005 \f005';
+  content: "\f005 \f005 \f005 \f005 \f005";
   color: #e61e4d;
 }
 
@@ -325,7 +332,7 @@ nav {
 
 .room-feature {
   font-size: 1.1rem;
-  color: #404040;
+  color: #e5ecec;
 }
 
 .room-feature p {
@@ -416,7 +423,7 @@ footer {
   max-width: 500px;
   padding: 10px 14px;
   font-size: 1em;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
     rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
   border: 0;
@@ -448,16 +455,16 @@ input::placeholder {
 
 /* Pagination */
 .page-item.active .page-link {
-  background-color: #e61e4d;
-  border-color: #e61e4d;
+  background-color: #1b1718;
+  border-color: #181516;
 }
 
 .page-link {
-  color: #e61e4d;
+  color: #0f1011;
 }
 
 .page-link:hover {
-  color: #e61e4d;
+  color: #232c2e;
 }
 
 /* Booking Details */
