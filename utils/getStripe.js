@@ -1,13 +1,13 @@
-import { loadStripe } from '@stripe/stripe-js'
+import { loadStripe } from "@stripe/stripe-js";
 
 let stripePromise;
 
 const getStripe = () => {
-    if (!stripePromise) {
-        stripePromise = loadStripe(process.env.STRIPE_API_KEY);
-    }
+  if (!stripePromise) {
+    stripePromise = loadStripe(`${process.env.STRIPE_API_KEY}`);
+  }
 
-    return stripePromise;
-}
+  return stripePromise;
+};
 
 export default getStripe;
