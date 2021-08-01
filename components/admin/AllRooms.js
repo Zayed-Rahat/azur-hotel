@@ -120,10 +120,11 @@ const AllRooms = () => {
 
           <MDBDataTable
             data={setRooms()}
-            className="px-3"
+            className="mdb-React-Style px-3"
             bordered
             striped
             hover
+            style={{ color: "white" }}
           />
         </>
       )}

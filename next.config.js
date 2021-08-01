@@ -9,7 +9,7 @@ module.exports = {
     STRIPE_SECRET_KEY:
       "sk_test_51JHq6cE2p5BTJmEJ6VX38VdlUqVEgThOFEi4ed0jebxFO36NVedPvFoqY1hBwzydSH5vUmSOlxylWEs7Jd8u7vlB00lxPtytvE",
 
-    STRIPE_WEBHOOK_SECRET: "whsec_bDKH7Ia7AgNQvOpl6zhXDht6sC4Eerx2",
+    STRIPE_WEBHOOK_SECRET: "whsec_g34rvjm666HZtB2xwtbGLol1oKPwf8dX",
 
     CLOUDINARY_CLOUD_NAME: "azurahat",
     CLOUDINARY_API_KEY: "491385474712394",
@@ -21,7 +21,7 @@ module.exports = {
     SMTP_PASSWORD: "8db07c289e28e0",
     SMTP_FROM_EMAIL: "AzurHotel",
     SMTP_FROM_NAME: "noreply@azurhotel.com",
-    NEXTAUTH_URL: "",
+    NEXTAUTH_URL: "https://azurHotel.vercel.app",
   },
   images: {
     domains: ["res.cloudinary.com"],

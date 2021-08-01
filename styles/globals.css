@@ -499,3 +499,7 @@ input::placeholder {
 #description_404 {
   color: grey;
 }
+/*   my bookings*/
+.mdb-React-Style tbody tr td {
+  color: #e4ebf1;
+}

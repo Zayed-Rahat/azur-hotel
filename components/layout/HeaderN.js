@@ -53,9 +53,9 @@ const HeaderN = () => {
                   Bookings
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/admin/users">Users</NavDropdown.Item>
-                <NavDropdown.Item href="/admin/reviews">
+                {/* <NavDropdown.Item href="/admin/reviews">
                   Reviews
-                </NavDropdown.Item>
+                </NavDropdown.Item> */}
               </>
             )}
             <NavDropdown.Item href="/bookings/me">My Bookings</NavDropdown.Item>

@@ -20,7 +20,6 @@ const MyBookings = () => {
       dispatch(clearErrors());
     }
   }, [dispatch]);
-
   const setBookings = () => {
     const data = {
       columns: [
@@ -134,10 +133,11 @@ const MyBookings = () => {
 
       <MDBDataTable
         data={setBookings()}
-        className="px-3"
+        className="mdb-React-Style px-2"
         bordered
         striped
         hover
+        style={{ color: "white" }}
       />
     </div>
   );
