@@ -1,5 +1,6 @@
 module.exports = {
   env: {
+    DB_LOCAL_URI: "http://localhost:3000",
     DB_URI:
       "mongodb+srv://azurahat:hotel420@hotels.o2vqk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
 

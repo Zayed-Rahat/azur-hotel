@@ -6,7 +6,7 @@ import getRawBody from "raw-body";
 import catchAsyncErrors from "../middlewares/catchAsyncErrors";
 import absoluteUrl from "next-absolute-url";
 
-const stripe = require("stripe")`${process.env.STRIPE_SECRET_KEY}`;
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 // Generate stripe checkout session   =>   /api/checkout_session/:roomId
 const stripCheckoutSession = catchAsyncErrors(async (req, res) => {
@@ -50,7 +50,7 @@ const webhookCheckout = catchAsyncErrors(async (req, res) => {
     const event = stripe.webhooks.constructEvent(
       rawBody,
       signature,
-      `${process.env.STRIPE_WEBHOOK_SECRET}`
+      process.env.STRIPE_WEBHOOK_SECRET
     );
 
     if (event.type === "checkout.session.completed") {
